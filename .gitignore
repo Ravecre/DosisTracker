@@ -112,6 +112,27 @@ app.*.symbols
 
 # Exceptions to above rules.
 !**/ios/**/default.mode1v3
+
+# Archivos temporales de Flutter y Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+
+# Archivos de configuración local de Android / iOS
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+*.xcodeproj
+*.xcworkspace
+
+# Logs y temporales del sistema
+*.log
+.DS_Store
+Thumbs.db
 !**/ios/**/default.mode2v3
 !**/ios/**/default.pbxuser
 !**/ios/**/default.perspectivev3
