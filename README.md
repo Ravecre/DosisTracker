@@ -2,9 +2,9 @@
 
 App móvil de código abierto para iOS y Android creada con Flutter. Diseñada para gestionar de forma sencilla, 100% privada y local la medicación, el inventario de cajas y las tomas diarias.
 
----
 
-##✨ Características Principales
+
+## Características Principales
 
 * ** 100% Offline y Privada:** Todos los datos se guardan en el propio dispositivo. Cero servidores, cero rastreo.
 * ** Control Inteligente de Stock:**
@@ -19,17 +19,17 @@ App móvil de código abierto para iOS y Android creada con Flutter. Diseñada p
 * ** Integración CIMA (AEMPS):** Consulta de la base de datos oficial de España para obtener información de medicamentos y el prospecto oficial en PDF.
 * ** Exportación:** Generación de informes en PDF, CSV y JSON.
 
----
 
-## 🛠️ Tecnologías Utilizadas
+
+##  Tecnologías Utilizadas
 * **Framework:** [Flutter](https://flutter.dev/) (Dart)
 * **Base de datos local:** SQLite / Hive
 * **API Externa (solo lectura pública):** CIMA (AEMPS)
 * **Plataforma objetivo inicial:** iOS (iPhone)
 
----
 
-## 🚀 Cómo Ejecutar el Proyecto Localmente
+
+##  Cómo Ejecutar el Proyecto Localmente
 
 ### Requisitos previos
 * Tener instalado [Flutter SDK](https://docs.flutter.dev/get-started/install)
