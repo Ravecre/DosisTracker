@@ -1,9 +1,15 @@
 import 'package:flutter/material.dart';
+import 'services/notification_service.dart'
 
-void main() {
+void main() async {
+  // Asegura que las configuraciones nativas estén listas
+  WidgetsFlutterBinding.ensureInitialized(); 
+  
+  // Inicializa las notificaciones
+  await NotificationService.init(); 
+
   runApp(const DosisTrackerApp());
 }
-
 
 // 1. MODELO DE DATOS (Medicamento)
 
